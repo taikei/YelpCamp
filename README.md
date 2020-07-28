@@ -41,7 +41,7 @@ The Web Developer Bootcamp by Colt Steele
 
 
 
-         
+This course was designed by <em>Colt Steel</em>.
     
 
      
