@@ -15,7 +15,7 @@ const Comment           = require('./models/comment');
 const User              = require('./models/user');
 
 // refreshing the data on each loading
-const seedDB            = require('./seeds');
+// const seedDB            = require('./seeds');
 
 // requiring routes
 const commentRoutes     = require('./routes/comments');
@@ -53,8 +53,12 @@ passport.deserializeUser(User.deserializeUser());
 
 
 // checking database connection
+// databaseUrl = {
+//      remote: mongodb+srv://taikei:5254121@cluster0.ca4ce.mongodb.net/yelpcamp?retryWrites=true&w=majority,
+//      local: mongodb://localhost:27017/yelp_camp    
+//}
 
-mongoose.connect('mongodb://localhost:27017/yelp_camp', {
+mongoose.connect('mongodb+srv://taikei:5254121@cluster0.ca4ce.mongodb.net/yelpcamp?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
