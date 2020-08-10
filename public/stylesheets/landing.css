@@ -3,6 +3,17 @@ body {
     background-color: #000;
 }
 
+@media screen and (min-width: 350px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .btn-lg {
+    font-size: 30px
+  }
+}
+
+
 #landing-header {
     z-index: 1;
     position: relative;
