@@ -8,6 +8,7 @@ body {
     position: relative;
     text-align: center;
     padding-top: 40vh;
+    font-size: large;
 }
 
 #landing-header h1 {
