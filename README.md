@@ -4,9 +4,6 @@
 
 YelpCamp is a Node.js web application with RESTful routing project from the Udemy course 
 The Web Developer Bootcamp by Colt Steele
-    
-
-View the Project -> https://salty-citadel-71716.herokuapp.com/
 
 
 
